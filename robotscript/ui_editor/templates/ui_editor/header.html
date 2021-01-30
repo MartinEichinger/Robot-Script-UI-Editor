@@ -1,0 +1,76 @@
+{% load static %}
+
+<div class="d-flex flex-row justify-content-between">
+	<div
+		class="boxLeft d-flex flex-column align-items-left justify-content-left"
+	>
+		<input id="scriptTitle" type="text" placeholder="New Untitled Script" />
+		<h4 id="currentDate">Updated Today, 12:42 PM</h4>
+	</div>
+
+	<div class="boxRight d-flex flex-row">
+		<div>
+			<div class="item" id="tableView">
+				<img src="{% static 'ui_editor/img/TableViewIcon.svg' %}" />
+			</div>
+			<p>Table View</p>
+		</div>
+		<div>
+			<div class="item" id="new">
+				<img src="{% static 'ui_editor/img/NewIcon.svg' %}" />
+			</div>
+			<p>New</p>
+		</div>
+		<div>
+			<div class="item" id="load">
+				<img src="{% static 'ui_editor/img/LoadIcon.svg' %}" />
+			</div>
+			<p>Load</p>
+		</div>
+		<div>
+			<div class="item" id="save">
+				<img src="{% static 'ui_editor/img/SaveIcon.svg' %}" />
+			</div>
+			<p>Save</p>
+		</div>
+	</div>
+</div>
+
+<!-- Modal -->
+<div
+	class="modal fade"
+	id="newModal"
+	tabindex="-1"
+	role="dialog"
+	aria-labelledby="newModalLabel"
+	aria-hidden="true"
+>
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="newModalLabel">Warning</h5>
+			</div>
+			<div class="modal-body">
+				<p>You didn't save the script yet. Want to save now?</p>
+			</div>
+			<div class="modal-footer">
+				<button
+					type="button"
+					class="btn btn-secondary"
+					data-dismiss="modal"
+					id="saveNewModal"
+				>
+					Save
+				</button>
+				<button
+					type="button"
+					class="btn btn-primary"
+					data-dismiss="modal"
+					id="discardNewModal"
+				>
+					Discard
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

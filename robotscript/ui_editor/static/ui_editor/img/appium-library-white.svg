@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_454" data-name="Rectangle 454" width="18" height="18" transform="translate(-4819 1424)" fill="#7038ba" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_216" data-name="Mask Group 216" transform="translate(4819 -1424)" clip-path="url(#clip-path)">
+    <g id="appium" transform="translate(-4818.984 1424)">
+      <path id="Path_298" data-name="Path 298" d="M14.155,1.781A8.892,8.892,0,0,0,3.632,1.67,8.7,8.7,0,0,0,.1,8.04c.572,2.253,2.844,4.413,7.22,3.361-.517-3.029.5-10.691,6.83-9.62Z" fill="#00acd2"/>
+      <path id="Path_299" data-name="Path 299" d="M11.9,9.105C9.541,11.067,2.344,14.061.1,8.04a8.88,8.88,0,0,0,5.06,9.234c3.632,1.784,7.416-.282,7.416-.282C14.245,15.37,15,12.369,11.9,9.105" fill="#c8e9eb"/>
+      <path id="Path_300" data-name="Path 300" d="M7.635,6.354c2.881,1.066,9.04,5.689,4.946,10.638A8.681,8.681,0,0,0,14.155,1.781c-2.237-.631-5.244.256-6.521,4.573" fill="#662d91"/>
+    </g>
+  </g>
+</svg>

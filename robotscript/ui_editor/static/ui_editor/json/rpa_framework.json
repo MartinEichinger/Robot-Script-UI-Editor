@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "name": "Archive",
+            "icon": "/img/archive.svg",
+            "tips": "Archiving TAR and ZIP files"
+        },
+        {
+            "name": "Browser.Selenium",
+            "icon": "/img/browser-selenium.svg",
+            "tips": "Control browsers and automate the web"
+        },
+        {
+            "name": "Browser.Playwright",
+            "icon": "/img/browser-playwright.svg",
+            "tips": "Newer way to control browsers"
+        },
+        {
+            "name": "Cloud.AWS",
+            "icon": "/img/cloud-aws.svg",
+            "tips": "Use Amazon AWS services"
+        },
+        {
+            "name": "Cloud.Azure",
+            "icon": "/img/cloud-azure.svg",
+            "tips": "Use Microsoft Azure services"
+        },
+        {
+            "name": "Cloud.Google",
+            "icon": "/img/Cloud-google.svg",
+            "tips": "Use Google Cloud services"
+        },
+        {
+            "name": "Database",
+            "icon": "/img/database.svg",
+            "tips": "Interact with databases"
+        },
+        {
+            "name": "Desktop",
+            "icon": "/img/desktop.svg",
+            "tips": "Cross-platform desktop automation"
+        },
+        {
+            "name": "Desktop.Clipboard",
+            "icon": "/img/desktop-clipboard.svg",
+            "tips": "Interact with the system clipboard"
+        },
+        {
+            "name": "Desktop.OperatingSystem",
+            "icon": "/img/desktop-operating-system.svg",
+            "tips": "Read OS information and manipulate processes"
+        },
+        {
+            "name": "Desktop.Windows",
+            "icon": "/img/desktop-windows.svg",
+            "tips": "Automate Windows desktop applications"
+        },
+        {
+            "name": "Dialogs",
+            "icon": "/img/dialogs.svg",
+            "tips": "Request user input during executions"
+        }
+    ]
+}

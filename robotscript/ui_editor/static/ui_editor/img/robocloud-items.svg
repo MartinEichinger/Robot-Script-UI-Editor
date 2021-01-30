@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_99" data-name="Rectangle 99" width="18" height="18" transform="translate(18 805)" fill="#00aeef" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_46" data-name="Mask Group 46" transform="translate(-18 -805)" clip-path="url(#clip-path)">
+    <g id="cloud-computing" transform="translate(18 805.01)">
+      <g id="Group_36" data-name="Group 36">
+        <g id="Group_35" data-name="Group 35">
+          <path id="Path_100" data-name="Path 100" d="M15.336,3.661A4.291,4.291,0,0,0,11.179.413,4.246,4.246,0,0,0,9.03.988,3.756,3.756,0,0,0,2.746,3.637a3.754,3.754,0,0,0,1.008,7.371H14.246a3.754,3.754,0,0,0,1.091-7.347Z" transform="translate(0 -0.008)" fill="#00aeef"/>
+        </g>
+      </g>
+      <g id="Group_38" data-name="Group 38" transform="translate(0 11.652)">
+        <g id="Group_37" data-name="Group 37">
+          <path id="Path_101" data-name="Path 101" d="M5.66,9.473v1H3.793a1.934,1.934,0,1,0,0,1.055H6.188A.527.527,0,0,0,6.715,11V9.473Z" transform="translate(0 -9.071)" fill="#858993"/>
+        </g>
+      </g>
+      <g id="Group_40" data-name="Group 40" transform="translate(7.066 12.055)">
+        <g id="Group_39" data-name="Group 39">
+          <path id="Path_102" data-name="Path 102" d="M7.957,11.516V9.384H6.9v2.132a1.934,1.934,0,1,0,1.055,0Z" transform="translate(-5.496 -9.384)" fill="#858993"/>
+        </g>
+      </g>
+      <g id="Group_42" data-name="Group 42" transform="translate(11.285 11.652)">
+        <g id="Group_41" data-name="Group 41">
+          <path id="Path_103" data-name="Path 103" d="M13.559,9.071a1.937,1.937,0,0,0-1.86,1.406H9.832v-1H8.777V11a.527.527,0,0,0,.527.527H11.7a1.933,1.933,0,1,0,1.86-2.461Z" transform="translate(-8.777 -9.071)" fill="#858993"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

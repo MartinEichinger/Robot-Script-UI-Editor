@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_103" data-name="Rectangle 103" width="18" height="18" transform="translate(18 859)" fill="#0092da" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_48" data-name="Mask Group 48" transform="translate(-18 -859)" clip-path="url(#clip-path)">
+    <path id="salesforce" d="M7.5,3.5a3.167,3.167,0,0,1,5.044.656A3.93,3.93,0,0,1,14.1,3.816a3.869,3.869,0,0,1,0,7.739,5.175,5.175,0,0,1-.76-.069,2.848,2.848,0,0,1-2.488,1.451,2.98,2.98,0,0,1-1.244-.276A3.248,3.248,0,0,1,3.6,12.488a3.807,3.807,0,0,1-.622.069A3.008,3.008,0,0,1-.027,9.551,2.976,2.976,0,0,1,1.459,6.96a3.652,3.652,0,0,1-.276-1.382A3.473,3.473,0,0,1,4.672,2.123,3.585,3.585,0,0,1,7.5,3.5" transform="translate(18.027 859.641)" fill="#0092da"/>
+  </g>
+</svg>

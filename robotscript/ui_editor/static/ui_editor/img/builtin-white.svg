@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_415" data-name="Rectangle 415" width="18" height="18" transform="translate(-4819 1046)" fill="#7038ba" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_199" data-name="Mask Group 199" transform="translate(4819 -1046)" clip-path="url(#clip-path)">
+    <g id="electric-plugin" transform="translate(-4817.982 1046.852)">
+      <path id="Path_260" data-name="Path 260" d="M15.067,5.305H.9a.9.9,0,0,0-.9.9v7.265a1.8,1.8,0,0,0,1.794,1.794H14.17a1.8,1.8,0,0,0,1.794-1.794V6.2A.9.9,0,0,0,15.067,5.305Z" transform="translate(0 -0.434)" fill="#7038ba"/>
+      <path id="Path_261" data-name="Path 261" d="M6.557,1.769a.3.3,0,0,0-.3-.3H2.878a.3.3,0,0,0-.3.3V3.786H6.557V1.769Z" transform="translate(-0.292)" fill="#7038ba"/>
+      <path id="Path_262" data-name="Path 262" d="M14.914,1.769a.3.3,0,0,0-.3-.3H11.235a.3.3,0,0,0-.3.3V3.786h3.979V1.769Z" transform="translate(-1.237)" fill="#7038ba"/>
+    </g>
+  </g>
+</svg>

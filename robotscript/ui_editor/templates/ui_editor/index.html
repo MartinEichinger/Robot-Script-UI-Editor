@@ -1,0 +1,180 @@
+{% extends "ui_editor/layout.html" %} {% load static %} {% block leftsidebar %}
+<div class="box d-flex flex-column align-items-center justify-content-center">
+	<img src="{% static 'ui_editor/img/MaskGroup2.svg' %}" />
+	<h1>Existing Sidebar</h1>
+	<h1>(Placeholder)</h1>
+</div>
+{% endblock %} {% block rightsidebar %}
+<div class="box d-flex flex-column align-items-center justify-content-center">
+	<h1>Libraries</h1>
+	<div class="input-group flex-nowrap">
+		<span class="input-group-text" id="addon-wrapping"
+			><img src="{% static 'ui_editor/img/SearchIcon.svg' %}"
+		/></span>
+		<input
+			id="search"
+			type="text"
+			name="searchvalue"
+			class="form-control"
+			placeholder="Search Libraries"
+			aria-label="Libraries"
+			aria-describedby="addon-wrapping"
+		/>
+		{% comment %}
+		<form action="{% url 'index' %}" method="POST">
+			{% csrf_token %}
+			<input
+				id="search"
+				type="text"
+				name="searchvalue"
+				placeholder="Search Libraries"
+				aria-label="Libraries"
+				aria-describedby="addon-wrapping"
+			/>
+		</form>
+		{% endcomment %} {% for result in results %}
+		<p>{{result.name}}</p>
+		{% endfor %}
+		<span class="input-group-icon list" id="addon-wrapping">
+			<!-- <img src="{% static 'ui_editor/img/ListIcon.sv' %}" /> -->
+		</span>
+	</div>
+
+	<div class="accordion accordion-flush" id="accordionFlash">
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="flush-headingOne">
+				<button
+					class="accordion-button collapsed"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#flush-collapseOne"
+					aria-expanded="false"
+					aria-controls="flush-collapseOne"
+				>
+					<img
+						src="{% static 'ui_editor/img/RPAFramworkIcon.svg' %}"
+					/>
+					<h1>RPAFramework</h1>
+				</button>
+			</h2>
+			<div
+				id="flush-collapseOne"
+				class="accordion-collapse collapse"
+				aria-labelledby="flush-headingOne"
+				data-bs-parent="#accordionFlash"
+			>
+				<div class="accordion-body">
+					<ul
+						id="ui-drop-items"
+						class="ui-drop-items d-flex flex-wrap"
+					>
+						{% for item in items %}
+						<li
+							class="item-group"
+							data-jbox-title="{{item.name}}"
+							data-jbox-content="{{item.tips}}"
+						>
+							<div class="item">
+								<img
+									src="{% static 'ui_editor/'|add:item.icon %}"
+								/>
+							</div>
+							<div class="text">{{item.name}}</div>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="tour_docking_1"></div>
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="flush-headingTwo">
+				<button
+					class="accordion-button collapsed"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#flush-collapseTwo"
+					aria-expanded="false"
+					aria-controls="flush-collapseTwo"
+				>
+					<img
+						src="{% static 'ui_editor/img/RobotFramworkIcon.svg' %}"
+					/>
+					<h1>RobotFramework</h1>
+				</button>
+			</h2>
+			<div
+				id="flush-collapseTwo"
+				class="accordion-collapse collapse"
+				aria-labelledby="flush-headingTwo"
+				data-bs-parent="#accordionFlash"
+			>
+				<div class="accordion-body">
+					<h3>Standard ({{standard|length}})</h3>
+					<ul
+						id="ui-drop-items2"
+						class="ui-drop-items d-flex flex-wrap"
+					>
+						{% for item in standard %}
+						<li
+							class="item-group"
+							data-jbox-title="{{item.name}}"
+							data-jbox-content="{{item.tips}}"
+						>
+							<div class="item">
+								<img
+									src="{% static 'ui_editor/'|add:item.icon %}"
+								/>
+							</div>
+							<div class="text">{{item.name}}</div>
+						</li>
+						{% endfor %}
+					</ul>
+					<h3>External ({{external|length}})</h3>
+					<ul
+						id="ui-drop-items3"
+						class="ui-drop-items d-flex flex-wrap"
+					>
+						{% for item in external %}
+						<li
+							class="item-group"
+							data-jbox-title="{{item.name}}"
+							data-jbox-content="{{item.tips}}"
+						>
+							<div class="item">
+								<img
+									src="{% static 'ui_editor/'|add:item.icon %}"
+								/>
+							</div>
+							<div class="text">{{item.name}}</div>
+						</li>
+						{% endfor %}
+					</ul>
+					<h3>Other ({{other|length}})</h3>
+					<ul
+						id="ui-drop-items4"
+						class="ui-drop-items d-flex flex-wrap"
+					>
+						{% for item in external %}
+						<li
+							class="item-group"
+							data-jbox-title="{{item.name}}"
+							data-jbox-content="{{item.tips}}"
+						>
+							<div class="item">
+								<img
+									src="{% static 'ui_editor/'|add:item.icon %}"
+								/>
+							</div>
+							<div class="text">{{item.name}}</div>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %} {% block body %}
+<div id="ui-editor-body" class="container-fluid"></div>
+{% endblock %}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_94" data-name="Rectangle 94" width="18" height="18" transform="translate(18 723.5)" fill="#2196f3" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42" data-name="Mask Group 42" transform="translate(-18 -723.5)" clip-path="url(#clip-path)">
+    <g id="outlook-logo" transform="translate(18 724.2)">
+      <g id="Group_33" data-name="Group 33" transform="translate(0 0)">
+        <path id="Path_82" data-name="Path 82" d="M15.264,5.313a.566.566,0,0,0-.525-.6H9.576V5.91h4.086l-2.68,2.208L9.576,6.966V8.482l1.1.894a.48.48,0,0,0,.61,0L14.213,7v3.158H9.576v1.195h5.163a.566.566,0,0,0,.525-.6V5.843c0-.014,0-.027,0-.042s0-.029,0-.042S15.264,5.313,15.264,5.313Z" transform="translate(2.736 0.647)" fill="#2196f3"/>
+        <path id="Path_83" data-name="Path 83" d="M4.656,10.02c.754,0,1.238-.994,1.238-2.476,0-1.23-.357-2.476-1.238-2.476-.931,0-1.275,1.263-1.275,2.476C3.381,8.958,3.827,10.02,4.656,10.02Z" transform="translate(0.966 0.748)" fill="#2196f3"/>
+        <path id="Path_84" data-name="Path 84" d="M0,16.323l11.206.822V.545L0,1.531ZM5.674,4.54c1.914,0,3.19,1.734,3.19,4.211,0,3.015-1.621,4.4-3.292,4.4-1.825,0-3.228-1.583-3.228-4.244S3.671,4.54,5.674,4.54Z" transform="translate(0 -0.545)" fill="#2196f3"/>
+      </g>
+    </g>
+  </g>
+</svg>

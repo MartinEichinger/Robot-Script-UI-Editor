@@ -1,0 +1,314 @@
+{
+    "standard": [
+        {
+            "name": "Builtin",
+            "icon": "/img/builtin.svg",
+            "tips": "Provides a set of often needed generic keywords. Always automatically available without imports."
+        },
+        {
+            "name": "OperatingSystem",
+            "icon": "/img/operating-system.svg",
+            "tips": "Enables various operating system related tasks to be performed in the system where Robot Framework is running."
+        },
+        {
+            "name": "String",
+            "icon": "/img/string.svg",
+            "tips": "Library for generating, modifying and verifying strings."
+        },
+        {
+            "name": "Process",
+            "icon": "/img/process.svg",
+            "tips": "Library for running processes in the system. New in Robot Framework 2.8."
+        },
+        {
+            "name": "Dialogs",
+            "icon": "/img/dialogs.svg",
+            "tips": "Provides means for pausing the execution and getting input from users."
+        },
+        {
+            "name": "Remote",
+            "icon": "/img/remote.svg",
+            "tips": "Special library acting as a proxy between Robot Framework and libraries elsewhere. Actual libraries can be running on different machines and be implemented using any programming language supporting XML-RPC protocol."
+        },
+        {
+            "name": "Telnet",
+            "icon": "/img/telnet.svg",
+            "tips": "Makes it possible to connect to Telnet servers and execute commands on the opened connections."
+        },
+        {
+            "name": "DateTime",
+            "icon": "/img/date-time.svg",
+            "tips": "Library for date and time conversions. New in Robot Framework 2.8.5."
+        },
+        {
+            "name": "Collections",
+            "icon": "/img/collections.svg",
+            "tips": "Provides a set of keywords for handling Python lists and dictionaries."
+        },
+        {
+            "name": "Screenshot",
+            "icon": "/img/screenshot.svg",
+            "tips": "Provides keywords to capture screenshots of the desktop."
+        },
+        {
+            "name": "XML",
+            "icon": "/img/xml.svg",
+            "tips": "Library for generating, modifying and verifying XML files."
+        }
+    ], 
+
+    "external": [
+        {
+          "name": "AppiumLibrary",
+          "icon": "/img/appium-library.svg",
+          "tips": "Library for Android and iOS testing. It uses Appium internally."
+        },
+        {
+            "name": "AutoRecorder",
+            "icon": "/img/auto-recorder.svg",
+            "tips": "Library which allows to automatically record video for test/suites execution."
+        },
+        {
+            "name": "ConfluentKafkaLibrary",
+            "icon": "/img/confluent-kafka-library.svg",
+            "tips": "Library for python confluent kafka."
+        },
+        {
+            "name": "Database Library (Python)",
+            "icon": "/img/database-library-python.svg",
+            "tips": "Python based library for database testing. Works with any Python interpreter, including Jython."
+        },
+        {
+            "name": "Diff Library",
+            "icon": "/img/diff-library.svg",
+            "tips": "Library to diff two files together."
+        }, 
+        {
+            "name": "Eclipse Library",
+            "icon": "/img/diff-library.svg",
+            "tips": "Library for testing Eclipse RCP applications using SWT widgets."
+        },
+        {
+            "name": "HTTP RequestsLibrary (Python)",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for HTTP level testing using Python Requests internally."
+        },
+        {
+            "name": "JavaFXLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for testing JavaFX applications, based on TestFX. Has also remote interface support."
+        },
+        {
+            "name": "Mainframe3270 Library",
+            "icon": "/img/builtin.svg",
+            "tips": "Library that allows to create automated test scripts to test IBM Mainframe 3270."
+        },
+        {
+            "name": "Rammbock",
+            "icon": "/img/builtin.svg",
+            "tips": "Generic network protocol test library that offers easy way to specify network packets and inspect the results of sent and received packets."
+        },
+        {
+            "name": "RPA framework",
+            "icon": "/img/builtin.svg",
+            "tips": "Collection of open-source libraries and tools for Robotic Process Automation (RPA), designed to be used both with Robot Framework and Python."
+        },
+        {
+            "name": "SeleniumScreenshots",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for annotating and cropping screenshots taken with SeleniumLibrary."
+        },
+        {
+            "name": "SikuliLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Sikuli Robot Framework Library provide keywords to test UI through Sikulix. This library supports Python 2.x and 3.x."
+        },
+        {
+            "name": "SwingLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for testing Java applications with Swing GUI."
+        },
+        {
+            "name": "WhiteLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for automating Windows GUI. Based on White framework, supported technologies include Win32, WinForms, and WPF."
+        },
+        {
+            "name": "ArchiveLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for handling zip- and tar-archives."
+        },
+        {
+            "name": "Browser Library",
+            "icon": "/img/builtin.svg",
+            "tips": "Robot Framework Browser library is a modern web testing library."
+        },
+        {
+            "name": "CURFLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for testing CAN bus with support for ISO-TP and UDS."
+        },
+        {
+            "name": "DataDriver Library",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for Data-Driven Testing with external data tables (csv, xls, xlsx, etc.). Pairwise Combinatorial Testing support."
+        },
+        {
+            "name": "Django Library",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for Django, a Python web framework."
+        },
+        {
+            "name": "robotframework-faker",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for Faker, a fake test data generator."
+        },
+        {
+            "name": "HttpRequestLibrary (Java)",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for HTTP level testing using Apache HTTP client. Available also at Maven central."
+        },
+        {
+            "name": "KiCadLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for interacting with KiCad EDA designs."
+        },
+        {
+            "name": "MQTT library",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for testing MQTT brokers and applications."
+        },
+        {
+            "name": "RemoteSwingLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for testing and connecting to a java process and using SwingLibrary, especially Java Web Start applications."
+        },
+        {
+            "name": "SapGuiLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for testing the SAPGUI client using the internal SAP Scripting Engine"
+        },
+        {
+            "name": "SeleniumLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Web testing library that uses popular Selenium tool internally."
+        },
+        {
+            "name": "SoapLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "This library is designed for those who want to work with webservice automation as if they were using SoapUI, make a request through an XML file, and receive the response in another XML file."
+        },
+        {
+            "name": "TestFX Library",
+            "icon": "/img/builtin.svg",
+            "tips": "Library to enable to test Java FX applications using the TestFX framework. Has also remote interface support. Maintained Fork..."
+        },
+        {
+            "name": "WADLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Application testing library for Robot Framework that utilizes Win App Driver."
+        },
+        {
+            "name": "AutoItLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Windows GUI testing library that uses AutoIt freeware tool as a driver."
+        },
+        {
+            "name": "CncLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for driving a CNC milling machine."
+        },
+        {
+            "name": "Database Library (Java)",
+            "icon": "/img/builtin.svg",
+            "tips": "Java-based library for database testing. Usable with Jython. Available also at Maven central."
+        },
+        {
+            "name": "Debug Library",
+            "icon": "/img/builtin.svg",
+            "tips": "A debug library for RobotFramework, which can be used as an interactive shell(REPL) also."
+        },
+        {
+            "name": "DoesIsLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library with autogenerated keywords like Is Something, Does Someting created form assertion keywords like Should Be, Should Not Be, etc"
+        },
+        {
+            "name": "FTP library",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for testing and using FTP server with Robot Framework."
+        },
+        {
+            "name": "ImageHorizonLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Cross-platform, pure Python library for GUI automation based on image recognition."
+        },
+        {
+            "name": "ListenerLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library allows to register keywords to run before/after other keywords and suites."
+        },
+        {
+            "name": "PuppeteerLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for web testing using Puppeteer tool internally."
+        },
+        {
+            "name": "RESTinstance",
+            "icon": "/img/builtin.svg",
+            "tips": "Robot Framework test library for HTTP JSON APIs."
+        },
+        {
+            "name": "ScreenCapLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for taking screenshots and video recording. Similar functionality as Screenshot standard library, with some additional features."
+        },
+        {
+            "name": "SeleniumLibrary for Java",
+            "icon": "/img/builtin.svg",
+            "tips": "Java port of the SeleniumLibrary."
+        },
+        {
+            "name": "SSHLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Enables executing commands on remote machines over an SSH connection. Also supports transfering files using SFTP."
+        },
+        {
+            "name": "TFTPLibrary",
+            "icon": "/img/builtin.svg",
+            "tips": "Library for interacting over Trivial File Transfer Portocol."
+        },
+        {
+            "name": "Zoomba Library",
+            "icon": "/img/builtin.svg",
+            "tips": "Library extending features in many popular tools for GUI, Rest API, Soap API, Mobile, and Windows (WinAppDriver) automation. An ideal all-in-one toolkit for new or existing Robot Framework projects."
+        }
+    ],
+    "other": [
+        {
+          "name": "Creating test libraries",
+          "icon": "/img/appium-library.svg",
+          "tips": "Creating test libraries section in Robot Framework User Guide."
+        },
+        {
+            "name": "Remote",
+            "icon": "/img/appium-library.svg",
+            "tips": "Built-in special library acting as a proxy between Robot Framework and test libraries elsewhere. Actual test libraries can be running on different machines and be implemented using any programming language supporting XML-RPC protocol."
+        },
+        {
+            "name": "plone.app.robotframework",
+            "icon": "/img/appium-library.svg",
+            "tips": "Provides resources and tools for writing functional Selenium tests for Plone CMS and its add-ons."
+        },
+        {
+            "name": "RemoteApplications",
+            "icon": "/img/appium-library.svg",
+            "tips": "Special test library for launching Java applications on a separate JVM and taking other libraries into use on them."
+        },
+        {
+            "name": "JavalibCore",
+            "icon": "/img/appium-library.svg",
+            "tips": "Base for implementing larger Java based test libraries for Robot Framework."
+        }
+    ]
+}

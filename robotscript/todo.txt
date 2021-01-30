@@ -1,0 +1,31 @@
+Response 1: Required  The style of the Guide tour is different from the design, no background icon, the font size, style and line space is also different
+
+Response 2: Required  As per the spec: The height of the entire page should fit the browser window, the items should be scrollable vertically.
+
+Response 3: Required  As per the spec: The search function should work, it should filter items in the expanded sections as soon as the user is typing.
+
+Response 4: Required  If I add a library then delete it, the add task button is still there.
+
+Response 5: Required  Sometimes I moved the cursor out of the items, the tips doesn't disappear.
+
+Response 6: Required  Delete a task - not implemented
+
+Response 7: Required  Many external libraries of https://robotframework.org/#libraries are missing.
+
+Response 8: Required  No "Other" libraries are configured.
+
+Response 9: Required  The popup modal is not following the design.
+
+Response 1: Required  No grey background of the Guide tour
+
+Response 2: Required  As per the spec: “Settings” button is not required
+
+Response 3: Required  While creating a new script, if I press "Save", the previous script is still there, even though for now the save feature is dummy, the old script should be cleared and then proceed to create a new script as well.
+
+Response 1: Required  Should put RPAFramework and RobotFramework in separate JSON files.
+
+Response 2: Required  The javascript code should be modular, you put everything in ui_editor.js
+
+Response 1: Required  No comments at all in the ui_editor/static/ui_editor/js/ui_editor.js
+
+Response 1: Required  Should avoid commented out code

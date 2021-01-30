@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_456" data-name="Rectangle 456" width="18" height="18" transform="translate(-4819 1456)" fill="#5153ff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_217" data-name="Mask Group 217" transform="translate(4819 -1456)" clip-path="url(#clip-path)">
+    <g id="video-camera" transform="translate(-4819 1456)">
+      <path id="Path_301" data-name="Path 301" d="M13.091,15.492c0,.341-.391.618-.873.618H.873c-.482,0-.873-.277-.873-.618V7.456c0-.341.391-.618.873-.618H12.218c.482,0,.873.277.873.618v8.036Z" fill="#5153ff"/>
+      <circle id="Ellipse_267" data-name="Ellipse 267" cx="2.182" cy="2.182" r="2.182" transform="translate(1.091 2.162)" fill="#5153ff"/>
+      <circle id="Ellipse_268" data-name="Ellipse 268" cx="2.727" cy="2.727" r="2.727" transform="translate(6.545 1.071)" fill="#5153ff"/>
+      <path id="Path_302" data-name="Path 302" d="M18,16.383a.616.616,0,0,1-.582.545c-.509,0-3.782-3.053-3.782-3.455v-4c0-.4,3.2-3.455,3.782-3.455A.546.546,0,0,1,18,6.565Z" fill="#5153ff"/>
+    </g>
+  </g>
+</svg>

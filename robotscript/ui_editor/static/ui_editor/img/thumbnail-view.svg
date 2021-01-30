@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_483" data-name="Rectangle 483" width="18" height="18" transform="translate(200.592 12.592)" fill="#fff" stroke="#939393" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_228" data-name="Mask Group 228" transform="translate(-200.592 -12.592)" opacity="0.75" clip-path="url(#clip-path)">
+    <g id="grid" transform="translate(203.05 15.05)">
+      <rect id="Rectangle_479" data-name="Rectangle 479" width="5.088" height="5.088" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <rect id="Rectangle_480" data-name="Rectangle 480" width="5.088" height="5.088" transform="translate(7.996)" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <rect id="Rectangle_481" data-name="Rectangle 481" width="5.088" height="5.088" transform="translate(7.996 7.996)" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <rect id="Rectangle_482" data-name="Rectangle 482" width="5.088" height="5.088" transform="translate(0 7.996)" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>
